@@ -18,6 +18,12 @@ public class CalculatorController {
 		return fir+sec;
 	}
 	
+	@GetMapping("multiplication")
+	@ResponseBody
+	public double multiplication(@RequestParam double fir,@RequestParam double sec) {
+		return fir * sec;
+	}
+	
 	
 	
 
