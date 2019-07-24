@@ -14,8 +14,8 @@ public class CalculatorController {
 	
 	@GetMapping("addition")
 	@ResponseBody
-	public double addition(@RequestParam double first,@RequestParam double second) {
-		return first+second;
+	public double addition(@RequestParam double fir,@RequestParam double sec) {
+		return fir+sec;
 	}
 	
 	
